@@ -25,9 +25,9 @@
 	<!-- 配置数据库连接参数及连接池 -->
 	<bean id="dbcp" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="username" value="root"/>
-		<property name="password" value="root"/>
+		<property name="password" value="123456"/>
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://localhost:3306/cloud_note"/>
+		<property name="url" value="jdbc:mysql://118.25.4.99:3306/ding_note"/>
 	</bean>
 	<!-- 配置SqlSessionFactory -->
 	<bean id="ssf" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -37,7 +37,7 @@
 	
 	<!-- 配置mapper扫描 -->
 	<bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.lcz.cloud_note.dao"/>
+		<property name="basePackage" value="com.dingjin.ding_note.dao"/>
 	</bean>
 </beans>
 

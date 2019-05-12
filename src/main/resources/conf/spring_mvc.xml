@@ -23,7 +23,7 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
 		">
 	<!-- 开启组件扫描 -->
-	<context:component-scan base-package="com.lcz.cloud_note"/>
+	<context:component-scan base-package="com.dingjin.ding_note"/>
 	<!-- 开启注解驱动 -->
 	<mvc:annotation-driven/>
 </beans>
