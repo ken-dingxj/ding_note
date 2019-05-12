@@ -17,10 +17,11 @@ public class TestUserService {
 		ApplicationContext ac=new ClassPathXmlApplicationContext(conf);
 		service= ac.getBean("userService",UserService.class);
 	}
-	@Test //用例-1:测试用户名存在的情况
-	public void test1() {
+	@Test //用例-1:测试登录成功的情况
+	public void test3() {
 		NoteResult<User> result = service.checkLogin("demo1", "123456");
-//		System.out.println(service.getClass().getName());
+		System.out.println(result.getStatus());
 		System.out.println(result.getMsg());
+		System.out.println(result.getData());
 	}
 }

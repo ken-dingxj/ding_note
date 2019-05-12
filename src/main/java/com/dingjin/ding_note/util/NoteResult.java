@@ -1,6 +1,6 @@
 package com.dingjin.ding_note.util;
 /**
- * 
+ * @author dingjin
  */
 import java.io.Serializable;
 

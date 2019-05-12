@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 保存异常信息到日志中
- * @author LvChaoZhang
+ * @author dingin
  *
  */
 @Component//扫描到spring容器里面

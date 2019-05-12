@@ -7,141 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4623835a-d2d2-4c16-b1fe-e13aceded0c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/aspect/AuditBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/aspect/ExceptionBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/aspect/LoggerBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/controller/UserLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/util/NoteException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/util/NoteResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ding_note_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ding_note_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ding_note.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ding_note.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/aspect/AuditBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/AuditBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/aspect/ExceptionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/ExceptionBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/aspect/LoggerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/LoggerBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/AddBookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/AddNoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/ChangeUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/DeleteNoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/LoadBooksController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/LoadNoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/LoadNotesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/LoadShareNoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/MoveNoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/ShareNoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/ShareSearchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/UpdateNoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/controller/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/UserRegisterController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/dao/NoteDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/dao/RelationDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/dao/ShareDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/entity/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/entity/Note.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/entity/Share.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/BookServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/NoteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/NoteServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/ShareService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/ShareServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/util/NoteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/util/NoteResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/util/NoteUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/spring_aop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/spring_aop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/spring_mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/spring_mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/spring_mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ShareMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_like.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_like.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_move.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_move.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_note.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_note.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestBookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestNoteDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestRelationDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/dao/TestUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/service/TestBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/service/TestNoteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/AuditBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/AuditBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/ExceptionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/ExceptionBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/LoggerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/LoggerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/service/TestUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/service/TestUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/aspect/AuditBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/aspect/ExceptionBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/aspect/LoggerBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/AddBookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/AddNoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/ChangeUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/DeleteNoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/LoadBooksController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/LoadNoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/LoadNotesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/LoadShareNoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/MoveNoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/ShareNoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/ShareSearchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/UpdateNoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/UserLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/controller/UserRegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/dao/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/dao/NoteDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/dao/RelationDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/dao/ShareDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/entity/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/entity/Note.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/entity/Share.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/BookServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/NoteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/NoteServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/ShareService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/ShareServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/service/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/util/NoteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/util/NoteResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lcz/cloud_note/util/NoteUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dingjin/ding_note/util/NoteUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf/spring_aop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/spring_aop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/spring_mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf/spring_mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/spring_mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NoteMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShareMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestBookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestNoteDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestRelationDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/dao/TestUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/service/TestBookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/service/TestNoteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/service/TestUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/service/TestUserService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,8 +29,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/service/TestUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="360">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,52 +51,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.8.RELEASE/spring-aop-4.1.8.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -227,11 +71,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/dao/TestUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_aop.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
-              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_transaction.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -264,6 +152,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/conf/spring_mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/service/TestUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/AuditBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/ExceptionBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/LoggerBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteResult.java" />
       </list>
     </option>
   </component>
@@ -305,7 +198,159 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ding_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ding_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -563,7 +608,7 @@
       <workItem from="1557582301359" duration="672000" />
       <workItem from="1557586204671" duration="2319000" />
       <workItem from="1557640751664" duration="3584000" />
-      <workItem from="1557649502226" duration="1517000" />
+      <workItem from="1557649502226" duration="2103000" />
     </task>
     <task id="LOCAL-00001" summary="factor:项目初始化">
       <created>1557588747658</created>
@@ -572,16 +617,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557588747658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="factor:项目编写mybatic测试类">
+      <created>1557652121821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557652121822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUserService - 2019.05.12 at 16h 33m 01s.xml">
-      <configuration name="TestUserService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUserService - 2019.05.12 at 16h 33m 07s.xml">
-      <configuration name="TestUserService" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestUserService - 2019.05.12 at 16h 56m 37s.xml">
       <configuration name="TestUserService" configurationId="JUnit" />
     </history-entry>
@@ -606,12 +652,19 @@
     <history-entry file="TestUserService - 2019.05.12 at 17h 03m 12s.xml">
       <configuration name="TestUserService" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestUserService - 2019.05.12 at 17h 13m 40s.xml">
+      <configuration name="TestUserService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService - 2019.05.12 at 17h 14m 08s.xml">
+      <configuration name="TestUserService" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11245000" />
+    <option name="totallyTimeSpent" value="11831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21062271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -688,16 +741,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="factor:项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="factor:项目初始化" />
+    <MESSAGE value="factor:项目编写mybatic测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="factor:项目编写mybatic测试类" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/controller/UserRegisterController.java" />
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor" />
@@ -729,107 +776,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/ExceptionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/ShareServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/BookServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/ShareService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/NoteService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/service/BookService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/LoggerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcz/cloud_note/dao/ShareDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/AuditBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/controller/UserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_transaction.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/service/TestBookService.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/dao/TestUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/service/TestNoteService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
-          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -840,10 +798,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/AuditBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/ExceptionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/aspect/LoggerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/controller/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -859,8 +861,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="480">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingjin/ding_note/util/NoteUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/dao/TestUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,18 +947,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/service/TestUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="360">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring_mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

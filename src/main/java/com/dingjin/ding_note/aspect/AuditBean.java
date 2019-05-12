@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * 性能审计用来查看执行各个业务需要的时间
  * 切面，用来性能测试 在service执行之前和service执行之后
- * @author LvChaoZhang
+ * @author dingjin
  *
  */
 @Component//扫描,起到定义<bean>的作用
