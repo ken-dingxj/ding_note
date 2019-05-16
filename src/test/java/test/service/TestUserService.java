@@ -18,8 +18,8 @@ public class TestUserService {
 		service= ac.getBean("userService",UserService.class);
 	}
 	@Test //用例-1:测试登录成功的情况
-	public void test3() {
-		NoteResult<User> result = service.checkLogin("demo1", "123456");
+	public void test() {
+		NoteResult<User> result = service.checkLogin("demo", "123456");
 		System.out.println(result.getStatus());
 		System.out.println(result.getMsg());
 		System.out.println(result.getData());
