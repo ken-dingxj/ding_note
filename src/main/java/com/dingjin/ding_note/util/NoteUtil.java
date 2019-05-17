@@ -34,7 +34,6 @@ public class NoteUtil {
 			throw new NoteException("密码加密失败", e);
 		}		
 	}
-	
 	public static void main(String[] args) throws Exception{
 		System.out.println(md5("123456"));
 		System.out.println(md5("12354654676dfdfdfdf"));
