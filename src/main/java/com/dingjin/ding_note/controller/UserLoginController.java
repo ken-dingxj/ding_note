@@ -32,7 +32,7 @@ public class UserLoginController {
 	@ResponseBody
 	public NoteResult<User> execute(@RequestBody String param) {
 		JSONObject jsonObject = (JSONObject) JSONObject.parse(param);
-		String name=jsonObject.get("name").toString();
+		String name=jsonObject.get("userName").toString();
 		String password=jsonObject.get("password").toString();
 		//调用UserService处理登录请求
 		NoteResult<User> result = userService.checkLogin(name, password);
