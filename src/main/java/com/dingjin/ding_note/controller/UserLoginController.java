@@ -4,7 +4,9 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 import com.dingjin.ding_note.service.UserService;
+import com.dingjin.ding_note.util.GsonUtil;
 import com.dingjin.ding_note.util.NoteResult;
+import com.google.gson.Gson;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +23,7 @@ import java.util.Map;
 @Controller
 @RequestMapping("/user")//匹配请求路径
 public class UserLoginController {
+	private Gson gson = new Gson();
 	@Resource
 	private UserService userService;
 	/**
@@ -31,11 +34,9 @@ public class UserLoginController {
 	@RequestMapping(name = "用户登陆",value ="/login.do",method = {RequestMethod.POST})
 	@ResponseBody
 	public NoteResult<User> execute(@RequestBody String param) {
-		JSONObject jsonObject = (JSONObject) JSONObject.parse(param);
-		String name=jsonObject.get("userName").toString();
-		String password=jsonObject.get("password").toString();
+		User user= GsonUtil.getGson().fromJson(param, User.class);
 		//调用UserService处理登录请求
-		NoteResult<User> result = userService.checkLogin(name, password);
+		NoteResult<User> result = userService.checkLogin(user.getCn_user_name(),user.getCn_user_password() );
 		return result;
 	}
 }
