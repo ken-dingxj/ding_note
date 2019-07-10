@@ -26,6 +26,13 @@
 	<context:component-scan base-package="com.dingjin.ding_note"/>
 	<!-- 开启注解驱动 -->
 	<mvc:annotation-driven/>
+	<!--	添加拦截器-->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.dingjin.ding_note.Interceptor.MyInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
 </beans>
 
 

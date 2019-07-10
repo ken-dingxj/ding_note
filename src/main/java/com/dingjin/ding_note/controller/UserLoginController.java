@@ -1,24 +1,20 @@
 package com.dingjin.ding_note.controller;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 
 import com.dingjin.ding_note.service.UserService;
 import com.dingjin.ding_note.util.GsonUtil;
 import com.dingjin.ding_note.util.NoteResult;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import com.alibaba.fastjson.JSONObject;
 
 import com.dingjin.ding_note.entity.User;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.lang.reflect.Field;
-import java.util.HashMap;
-import java.util.Map;
 
 @Controller
 @RequestMapping("/user")//匹配请求路径

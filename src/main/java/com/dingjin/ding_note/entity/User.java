@@ -3,7 +3,6 @@ package com.dingjin.ding_note.entity;
  * 类属性名和属性数据类型要与数据表cn_user字段名及数据类型保持一致
  */
 import java.io.Serializable;
-import java.util.List;
 
 public class User implements Serializable {
 	private String cn_user_id;
@@ -11,7 +10,25 @@ public class User implements Serializable {
 	private String cn_user_password;
 	private String cn_user_token;
 	private String cn_user_nick;
-	
+	private String cn_last_password;
+	private String cn_final_password;
+
+
+	public String getCn_last_password() {
+		return cn_last_password;
+	}
+
+	public void setCn_last_password(String cn_last_password) {
+		this.cn_last_password = cn_last_password;
+	}
+
+	public String getCn_final_password() {
+		return cn_final_password;
+	}
+
+	public void setCn_final_password(String cn_final_password) {
+		this.cn_final_password = cn_final_password;
+	}
 
 	public String getCn_user_id() {
 		return cn_user_id;
