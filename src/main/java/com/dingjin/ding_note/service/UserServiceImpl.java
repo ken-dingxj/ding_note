@@ -23,9 +23,9 @@ public class UserServiceImpl implements UserService{
 	@Resource
 	private UserDao userDao;
 	//查询用户
-	public NoteResult<User> checkLogin(String name, String password) {
+	public NoteResult<Object> checkLogin(String name, String password) {
 		//接受结果数据
-		NoteResult<User> result=new NoteResult<User>();
+		NoteResult<Object> result=new NoteResult<Object>();
 		//按参数name查询数据库
 		User user = userDao.findByName(name);
 		//检测用户名

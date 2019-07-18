@@ -19,7 +19,7 @@ public class TestUserService {
 	}
 	@Test //用例-1:测试登录成功的情况
 	public void test() {
-		NoteResult<User> result = service.checkLogin("demo", "123456");
+		NoteResult<Object> result = service.checkLogin("demo", "123456");
 		System.out.println(result.getStatus());
 		System.out.println(result.getMsg());
 		System.out.println(result.getData());

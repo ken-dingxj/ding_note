@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Component//扫描,起到定义<bean>的作用
 @Aspect//指定为切面
 public class AuditBean {
-	@Around("within(com.lcz.cloud_note.service..*)")//指定通知类型/切入点表达式
+	@Around("within(com.dingjin.ding_note.service..*)")//指定通知类型/切入点表达式
 	public Object audit(ProceedingJoinPoint point) {
 		Object object=null;
 		try {

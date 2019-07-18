@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 @Aspect//将该类作为切面组件
 public class ExceptionBean {
 	//指定异常通知和切入点表达式 e是目标组件抛出来的异常对象
-	@AfterThrowing(throwing="e",pointcut="within(com.lcz.cloud_note.service..*)")
+	@AfterThrowing(throwing="e",pointcut="within(com.dingjin.ding_note.service..*)")
 	public void execute(Exception e) {
 		try {
 			//将e对象信息写入note_error.log文件

@@ -13,13 +13,13 @@ import org.springframework.stereotype.Component;
 @Aspect//指定为切面
 public class LoggerBean {
 	//指定通知类型/切入点表达式
-	@Before("within(com.lcz.cloud_note.controller..*)")
+	@Before("within(com.dingjin.ding_note.controller..*)")
 	public void loggerController() {
 		System.out.println("AOP功能注入Controller!");
 	}
 	
 	//指定通知类型/切入点表达式
-	@Before("within(com.lcz.cloud_note.service..*)")
+	@Before("within(com.dingjin.ding_note.service..*)")
 	public void loggerService() {
 		System.out.println("AOP功能注入Service!");
 	}
