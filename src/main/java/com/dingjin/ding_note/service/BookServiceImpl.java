@@ -9,12 +9,25 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.sql.Timestamp;
+import java.util.List;
 
-@Service("BookService") //扫描到Spring容器
+@Service("bookService") //扫描到Spring容器
 @Transactional
 public class BookServiceImpl implements BookService {
     @Resource
     BookDao bookDao;
+    //根据登录的uid查找笔记本的数据
+    public NoteResult<List<Book>> loadUserBook(String userId) {
+        //接受结果
+        NoteResult<List<Book>> result=new NoteResult<List<Book>>();
+        //查询
+        List<Book> books = bookDao.findByUserId(userId);
+
+        result.setStatus(0);
+        result.setMsg("查询笔记本成功");
+        result.setData(books);
+        return result;
+    }
     public NoteResult<Object> addBook(String userId, String title) {
         Book book=new Book();
         //增加笔记本id
